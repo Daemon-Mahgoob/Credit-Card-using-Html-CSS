@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e3f2fd;
+}
+
+.container {
+  position: relative;
+  background-image: url("images/bg.png");
+  background-size: cover;
+  padding: 25px;
+  border-radius: 28px;
+  max-width: 380px;
+  width: 100%;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.credit-name {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.credit-name h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 10px;
+}
+.master {
+  width: 48px;
+}
+.chip {
+  width: 60px;
+}
+.card-details {
+  color: #fff;
+  margin-top: 25px;
+}
+.detail {
+  font-size: 12px;
+  font-weight: 300;
+}
+.card-num {
+  font-size: 21px;
+  font-weight: 400;
+  /* margin-top: 5px; */
+}
+.name-valid {
+  color: #fff;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.card-name {
+  font-size: 18px;
+  font-weight: 400;
+}
+.valid h6 {
+  font-size: 14px;
+  font-weight: 300;
+}
+.valid h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
